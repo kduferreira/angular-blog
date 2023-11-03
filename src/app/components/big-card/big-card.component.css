@@ -1,0 +1,32 @@
+.container__big-card{
+  
+  width: 400px;
+  height: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  display: flex;
+  /* flex- direction faz com que o conteudo fique agrupado depedendo do metodo que voce escolhe*/
+  flex-direction: column;
+    /* justify-content faz com que o conteudo se comporta em determinado jeito na pagina (flex-start) deixa eles grudados na ponta da div*/
+    justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.big-card__title >h1 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.big-card__description >p {
+  margin-top: 10px;
+}
+.big-card__description >p  > a{
+
+  color: #505050;
+}
+
+.big-card__pictures > img {
+  width: 100%;
+}
