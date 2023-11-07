@@ -1,4 +1,6 @@
-
+*{
+  background-color: #121212;
+}
 
 .container >ul{
   display: flex;
@@ -7,5 +9,10 @@
 .container >ul >li{
   margin-right: 20px;
 list-style: none;
+}
+.container >ul >li > a:hover{
+  font-weight: bolder;
+  color: white;
+
 }
 

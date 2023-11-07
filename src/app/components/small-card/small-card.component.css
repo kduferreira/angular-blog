@@ -22,3 +22,11 @@
 .container__small-card__separator{
   margin-top: 10px;
 }
+.container__small-card__separator >hr{
+  margin-top: 10px;
+  border: 1px solid rgb(26, 26, 26);
+
+}
+
+
+

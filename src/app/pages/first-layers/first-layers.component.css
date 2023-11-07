@@ -1,3 +1,6 @@
+*{
+  background-color: #121212;
+}
 .container__articles{
   margin-top: 30px;
   display: flex;
@@ -5,10 +8,3 @@
   justify-content: center;
 }
 
-.first-layers{
-  background-color: #121212;
-}
-
-.second-layers{
-  background-color: white;
-}
