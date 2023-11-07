@@ -1,6 +1,3 @@
-*{
-  background-color: #121212;
-}
 
 .container >ul{
   display: flex;
@@ -15,4 +12,7 @@ list-style: none;
   color: white;
 
 }
+
+
+
 

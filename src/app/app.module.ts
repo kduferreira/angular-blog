@@ -12,6 +12,8 @@ import { ContentComponent } from './pages/content/content.component';
 import { FirstLayersComponent } from './pages/first-layers/first-layers.component';
 import { SecondLayersComponent } from './pages/second-layers/second-layers.component';
 import { WhiteSmallCardComponent } from './components/white-small-card/white-small-card.component';
+import { SocialContainerComponent } from './components/social-container/social-container.component';
+import { IconMenuBarComponent } from './components/icon-menu-bar/icon-menu-bar.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { WhiteSmallCardComponent } from './components/white-small-card/white-sma
     ContentComponent,
     FirstLayersComponent,
     SecondLayersComponent,
-    WhiteSmallCardComponent
+    WhiteSmallCardComponent,
+    SocialContainerComponent,
+    IconMenuBarComponent
 
   ],
   imports: [

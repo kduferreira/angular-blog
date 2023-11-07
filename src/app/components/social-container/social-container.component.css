@@ -1,0 +1,21 @@
+.container___social >ul{
+  display: flex;
+  flex-direction: row;
+
+}
+.container___social >ul  >li{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  list-style: none;
+}
+.container___social >ul >li> a:hover{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.container___social ul li a img:hover {
+  transform: scale(1.2); /* Aumenta a escala da imagem em 20% quando o cursor passa sobre ela */
+  transition: transform 0.3s; /* Adicione uma transição suave para a transformação */
+}

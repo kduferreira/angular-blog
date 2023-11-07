@@ -1,7 +1,26 @@
+.header-global{
+  display: flex;
+  align-items: center; /* Centraliza verticalmente os cabeçalhos */
+  justify-content: space-between; /* Alinha os cabeçalhos à esquerda e à direita */
+ 
+  margin-top: 15px;
+
+}
+
+
 header{
 
   display: flex;
   justify-content: center;
+  margin-top: 15px;
+  margin-left: 200px;
+}
+.social-header {
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
   margin-top: 15px;
 }
 
