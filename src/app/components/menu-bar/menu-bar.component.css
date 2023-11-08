@@ -6,6 +6,18 @@
 .container >ul >li{
   margin-right: 20px;
 list-style: none;
+font-family: 'Poppins', sans-serif;
+
+}
+.container >ul >li >span{
+  margin-right: 20px;
+list-style: none;
+
+}
+.container >ul >li >a{
+  margin-right: 20px;
+list-style: none;
+  color: #656565;
 }
 .container >ul >li > a:hover{
   font-weight: bolder;

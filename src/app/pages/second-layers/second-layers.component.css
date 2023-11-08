@@ -1,22 +1,17 @@
 *{
   background-color: white;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+
 }
 
 
 
 
 .articles__white{
-  border-right: 1px solid rgb(209, 209, 209);
+  border: 1px solid red;
   height: 100%;
-
+  color: #1A1B1F;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
-
 

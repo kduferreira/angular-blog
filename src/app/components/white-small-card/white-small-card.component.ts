@@ -12,5 +12,6 @@ export class WhiteSmallCardComponent {
   whitetitle:string = '';
   @Input()
   whiteDescription: string = '';
-
+  @Input()
+  Id:string ='0'
 }
